@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NB2-g1-n6h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--White-->
+        <scene sceneID="zWK-Ln-g4V">
+            <objects>
+                <viewController id="S7w-CJ-ka7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EGX-xC-q8l">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bt1-gi-7w6"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="White" id="s4E-gU-hMY">
+                        <barButtonItem key="rightBarButtonItem" title="Gray" id="ZRM-H9-oUA">
+                            <connections>
+                                <segue destination="9pZ-zK-1ZH" kind="show" id="P5G-J2-wwB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9M-EB-AWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="415.94202898550731" y="341.51785714285711"/>
+        </scene>
+        <!--Gray-->
+        <scene sceneID="o7s-w1-wX5">
+            <objects>
+                <viewController id="9pZ-zK-1ZH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jAM-yR-nSs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pva-6w-9aL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gray" id="Xy0-RK-gBA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rip-ll-QEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1174" y="342"/>
+        </scene>
+        <!--Simple-->
+        <scene sceneID="T2Z-oq-xUA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NB2-g1-n6h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Simple" id="a0e-qY-XHn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="9MG-9C-IWe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="S7w-CJ-ka7" kind="relationship" relationship="rootViewController" id="bQx-xs-5a2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifg-o3-KxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-494.20289855072468" y="341.51785714285711"/>
+        </scene>
+    </scenes>
+</document>
